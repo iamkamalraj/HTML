@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Forms Project</title>
+
+        <style>
+
+            body {
+                background-color: #f2f6ff;
+                margin: 0;
+                padding: 16px;
+            }
+            .social-item {
+                width: 50px;
+                height: 50px;
+                padding-top: 16px;
+                padding-bottom: 16px;
+                padding-left: 32px;
+                padding-right: 32px;
+            }
+
+            form {
+                background-color: white;
+                width: 700px;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+                border: 1px solid #ccc;
+                
+            }
+
+            #form-heading {
+                font-size: 32px;
+                padding-top: 56px;
+                padding-bottom: 32px;
+            }
+
+            #social-wrapper {
+                background-color: #f2f6ff;
+                padding: 24px;
+                
+            }
+
+            #input-wrapper {
+                padding-top: 80px;
+                padding-bottom: 40px;
+                padding-left: 80px;
+                padding-right: 80px;
+            }
+
+            .input-box {
+                font-size: 18px;
+                padding-bottom: 12px;
+                margin-bottom: 36px;
+                border: 0;
+                border-bottom: 1px solid #ccc;
+                width: 100%;
+
+            }
+
+            #btn-submit {
+                background-color: #0056ff;
+                padding-top: 12px;
+                padding-bottom: 12px;
+                padding-left: 24px;
+                padding-right: 24px;
+                font-size: 18px;
+                color: white;
+                border: none;
+            }
+
+        </style>
+    </head>
+    <body>
+        <form>
+            <h1 id="form-heading">Register</h1>
+            <div id="social-wrapper">
+                <img class="social-item"
+                src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-webinar-optimizing-for-success-google-business-webinar-13.png"
+                alt="google-logo" />
+                <img class="social-item"
+                src="https://www.freepnglogos.com/uploads/512x512-logo-png/512x512-logo-github-icon-35.png"
+                alt="github-logo" />
+                <img class="social-item"
+                src="https://www.freepnglogos.com/uploads/facebook-logo-icon/facebook-logo-icon-facebook-icon-png-images-icons-and-png-backgrounds-1.png"
+                alt="facebook-logo" />
+                <img class="social-item"
+                src="https://www.freepnglogos.com/uploads/linkedin-logo-design-30.png"
+                alt="linkedin-logo" />
+            </div>
+
+            <div id="input-wrapper">
+                <div>
+                    <input class="input-box"
+                    type="text" name="username"
+                    placeholder="username">
+                </div>
+                <div>
+                    <input class="input-box"
+                    type="email" name="email"
+                    placeholder="email">
+                </div>
+                <div>
+                    <input class="input-box"
+                    type="password" name="password"
+                    placeholder="password">
+                </div>
+                <div>
+                    <input class="input-box"
+                    type="password" name="confirm-password"
+                    placeholder="confirm password">
+                </div>
+            </div>
+
+            <input id="btn-submit" type="submit"
+             value="Register">
+
+        </form>
+    </body>
+</html>
